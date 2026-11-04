@@ -30,6 +30,8 @@ serves it at `<mimir-flix address>/tv/app.apk` once it is built (see Build).
 2. `adb connect <tv-ip>:5555`, accept the prompt on the TV, then `adb install -r mimir-flix-tv.apk`.
 
 To change the address later: when mimir-flix is not answering the app says so; press OK to type another one.
+With a domain of your own the address can be a name, such as `https://lan.home.example.com`
+([Your own domain with Cloudflare](https://gist.github.com/shrshk/58b710264907d1e229675a2313f24b0e)).
 
 ### Show on TV (optional)
 
